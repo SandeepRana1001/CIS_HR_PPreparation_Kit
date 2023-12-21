@@ -1,0 +1,36 @@
+4-6 weeks for UAT recomended
+
+Engagement Manager is everything
+
+Client Roles beginning with “sn_hr_sp” grant access to the Service Portal and Client Roles beginning with “sn_hr_core” allow the employee to be selected for the Opened for and subject person
+
+ServiceNow uses a Service Oriented Architecture (SOA) where all data objects are available for integrations. There are three Integration categories used in ServiceNow: Authentication, Data Integrations, and Web services.
+
+Select language when logging in or during your session 
+• Allow the translation of Menus, Labels, and Messages 
+• Facilitate translation of custom Field Labels (requires additional configuration) 
+• Translate currency
+
+
+
+Read about roles, user criteria, hr criteria, 
+
+1) What determines the timeline of implementation?   -- the timeline for any implementation depends upon configuration complexity.
+
+Technical Note: The Knowledge bases searched for the Knowledge results section are determined by the Search Context configuration.
+
+The Scoped Application, Restricted Caller Access [com.glide.scope.access.restricted_caller], plugin is automatically activated when the HR application is installed or upgraded.
+
+System Administrator publishes the Application to either subprod/prod instance or Store. An Admin (or user with the source_control role) can also commit the application to Git repository.
+
+a user with the sn_hr_core.admin role can revoke the System Administrator's access to the HR application.
+
+sn_hr_core.profile_reader and sn_hr_core.profile_writer and HR admin can only access HR profile application
+
+NOTE: The Direct Reports and Colleagues related lists on the HR Profile are read only from the HR Profile view. Updates to these sections are made in the Organization application rather than the HR application.
+
+Users with an Employee Service Portal (sn_hr_sp.hrsp_employee) role may access the HR Service Portal,
+
+Users with an Employee Service Portal (sn_hr_sp.hrsp_employee) role may access the HR Service Portal,
+
+“sn_hr_sp” grant access to the Service Portal and Client Roles beginning with “sn_hr_core” allow the employee to be selected for the Opened for and Subject person fields on an HR Case.

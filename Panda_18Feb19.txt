@@ -1,0 +1,54 @@
+1. Create Bulk Case - options how to create : Upload File, HR Criteria, HR Profiles, Users, User Criteria
+2. HR Admin without admin role can add users to group, configure HR properties - Go through PAGE 200 of PDF (HR Implementation-London) 
+3. Role to access HR Properties : HR ADMIN
+4. Role to access HR Guided Setup : Both ADMIN & HR ADMIN
+5. HR Service can be tagged to 1 COE
+6. ESCALATION RULE - System follows during escalation
+7. HR Admin can modify PERSONAL COPY of HR Case Dashboard
+8. Components of Hr Service Catalog : Catalog Item, Record Producer, HR Service, HR Template
+9. Uncheck "Employee access" - to prevent employees to view the document
+10. Client Role for access to Service Portal
+11. LE Admin for LE 
+12. sn_hr_integrations.admin for integrations
+13. Config view - forms, properties, lists
+14. PDF Doc template & Doc Template
+15. True about translations - Knowledge texts are NOT translated
+16. 3 Benefits of having COE - easy for reporting, structured organization, helps HR Professionals
+17. Translated Versions in Knowledge
+18. Unlimited User Criteria in KB/article
+19. HR Profile table - already there during HR Plugin activation
+20. what are different scopes - core, lifecycle events, integrations, portal, document management
+21. Drastic change - if customer undergoes lots of customizations, translations, integrations, with huge population
+22. Managed Interaction,Self-Reliance,Smart Service
+23. HR Service, Topic Detail, Topic Category, COE
+24. Why hr admin needs to be removed from admin (2 options) - hr can further develop & HR data is secure
+25. Delegated Developer - not an admin, but can develop
+26. Checklists - gathering requirements
+27. HR Template referenced on HR SERVICE record
+28. Add Content, Change Layout - 2 buttons on HR Case Dashboard
+29. Basic Role to access - HR Core Basic
+30. Minimum configuration required to create an HR case by an HR Professional - HR Service
+31. LE Table extends - HR CORE CASE
+32. HR Topic Categories are group of - HR SERVICES
+33. Chango logo in portal - BRANDING EDITOR
+34. Contextual, Roles & Groups, Platform Access - Governance
+35. From Jakarta - its called HR Service Delivery
+36. Who can Generate PDF on Case - ASSIGNED TO
+37. When is Client Role assigned - When HR Profile is created
+38. 5 Client Roles - New Hire, Alumni, Employee, Contractor, Contingent
+39. Alumni - one who has left the organization
+40. If you want HR to do some development, but dont want to assign sys admin - DELEGATED DEVELOPER
+41. HR Profile has got confidential data
+42. E-sign : just an acknowledgment in form of image
+43. HR Task - can be made OPTIONAL
+44. What's required for chat - CONNECT CHAT Plugin
+45. What does Owner group do - Manage templates
+46. Matching Engine invoked by "processAndGetCandidate"
+
+
+
+
+
+
+
+

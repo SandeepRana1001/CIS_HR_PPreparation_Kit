@@ -1,0 +1,61 @@
+Certification
+***************
+HR Security, detailed later, is also acHvated when the core HR ApplicaHon is enabled.
+
+Auto Assignment  - skill sets, location, and workload.
+
+Fullfiller has atleast HR Basic role
+
+IntegraHons must be configured by someone with the HR IntegraHons Admin [sn_hr_integraHons.admin] role. Initially, this role is granted to the System Administrator.
+
+Tier 1 Generalist, Tier 2 Specialist --> HR Basic role
+Tier 3 HR Manager --> HR Manager role
+
+HR Profile:
+*Imported from a spreadsheet: Only a system administrator or delegated developer may import Profile informaHon from a spreadsheet. 
+
+**Third-party integra4on: A system administrator or delegated developer can populate HR Profiles by synchronizing them through an integraHon with external HR systems.
+
+Beginning with the Kingston release, integrations for SuccessFactors, Workday, and First Advantage are prebuilt and only need to be configured by a System Administrator OR delegated developer.
+
+2 ways of creation of HR case by HR pofessional : 
+HR Profile page
+Create New Case
+
+If the Show case to subject person field is checked on the HR Service, the Case will be visible to the Subject person. However, if the box is not checked, the Case will be hidden from the Subject person.
+
+In order for the system to find the fillable fields on a document, the PDF must include defined form fields. To ensure that the system can read form fields properly, field names should have no special characters.
+
+e-signatures are not the same as digital signatures. Digital signatures are secure signatures that are permanently embedded into a document and that are linked to your idenGty. E-signatures are an image, or picture, of your signature placed on a document to represent an acknowledgement or approv
+
+The Child HR Service option is only available when Enterprise Onboarding and Transitions has been separately licensed
+
+On the HR Template for this HR Service, you did not select an Assignment Group. When no Assignment Group is assigned, the baseline Routing and Assignment rules automatically assigned the Case to the HR Tier 1 group.
+
+Each AcGvity Set in a Lifecycle Event must be triggered and either completed or skipped before the Lifecycle Event Case will be closed.
+
+HR Chat also provides the ability for managers to:
+ • Review the chat records 
+ • Measure how long employees waited for a response and
+ • Track which employees are accepQng chat requests.
+ 
+ There are two sets of Knowledge search results displayed: 
+ 1. My Results displays a list of arQcles the logged in user can access. Remember, Knowledge results are visible only to authorized people using the User Criteria associated with the Knowledge base or the arQcle. 
+ 2. [employee name] Results displays a list of arQcles the Opened for employee can access.
+ 
+ A System Administrator or delegated developer configures SLAs for an organizaHon.
+ 
+ HR Admins and employees with a Lifecycle Events role also have access to the Lifecycle Events Dashboards:
+ 
+ Report Designer  --> Date/Type/Configure/Style
+ 
+ HR Admin can save and modify personal copies of exisRng reports.
+ 
+ The relative operator allows you to measure dates on a moving scale rather than by selecting a specific date.
+ 
+ Add the PA Viewer role to the HR groups that need to view the dashboards.
+ [com.sn_hr_pa] & [com.sn_hr_lifecycle_pa]  --  Plugins PA for HR
+ 
+ NOTE: When creaRng a new survey, the Scale Factor field must be completed. Scale Factor is used by the system to calculate the normalized value for the survey results. In the base ServiceNow instance, a Scale Factor of 10 is typically used.
+ 
+ IMPORTANT NOTE: Only an HR Admin may assign users to HR groups; therefore, it is crucial that an HR Admin is assigned to a group with the HR Admin role before compleCng this step.
